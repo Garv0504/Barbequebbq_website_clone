@@ -33,6 +33,16 @@ t2.to('.image', {
 });
 
 
+function showMenu(){
+    var men = document.getElementById('menu')
+    men.style.display = "block"
+}
+function hideMenu(){
+    var men = document.getElementById('menu')
+    men.style.display = "none"
+}
+
+
 
 
 
