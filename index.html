@@ -10,12 +10,28 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+    <div class="menu" id="menu">
+        <span class="material-symbols-outlined" onclick="hideMenu()">
+            restaurant_menu
+        </span>
+        <div class="nav-links" id="menu-links">
+            <a href="">SHOP</a>
+            <a href="">MENU</a>
+            <a href="">OUR ROOTS</a>
+            <a href="">VISIT</a>
+            <a href="">PRESS</a>
+        </div>
+    </div>
     <div class="main" data-scroll>
         <div class="page1">
             <nav>
                 <img src="logo-short.png" alt="">
+                <span class="material-symbols-outlined" onclick="showMenu()">
+                    drag_handle
+                    </span>
                 <div class="nav-links">
                     <a href="">SHOP</a>
                     <a href="">MENU</a>
